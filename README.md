@@ -12,4 +12,4 @@ chmod +x portscanner.sh
 
 Here’s a sample output of the port scanner:
 
-![Port Scanner Output](scrnsht.png)
+![Port Scanner Output](scrnsht.PNG)
