@@ -21,8 +21,8 @@ echo "🔍 Starting scan on $target from port $start to $end..."
 
 for port in $(seq $start $end); do
     (echo > /dev/tcp/$target/$port) >/dev/null 2>&1 && \
-    echo "✅ Port $port OPEN" || \
-    echo "❌ Port $port CLOSED"
+    echo " Port $port OPEN" || \
+    echo " Port $port CLOSED"
 done
 
 echo "✅ Scan complete!"
